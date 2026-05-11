@@ -38,7 +38,6 @@ A button is a promise about what happens next. The label should let the user pre
 - Pair commit and dismiss asymmetrically. The commit button is specific (`Save changes`, `Delete project`, `Send invite`). The dismiss button stays generic (`Cancel`, `Close`). Don't write `Don't save` or `Keep editing` unless the consequence of dismissal isn't obvious.
 - Match the verb to the user's situation. `Go to X` for chosen navigation (empty states, settings, dialogs). `Back to X` for recovery from errors or dead ends (404 pages, broken flows). 
 - A leading icon can repeat the label's meaning if it speeds up scanning (`+ New template`, `↑ Upload JSON`). Trailing arrows (`Go to Integration →`) signal navigation away. Use them for that, not for emphasis.
-- 
 
 ### Form errors
 - Inline, next to the offending field, in the moment the user can fix it.
