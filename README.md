@@ -8,31 +8,22 @@ The skills are written in the Anthropic [Claude Skills](https://docs.claude.com/
 
 | Skill | Use it for |
 | --- | --- |
-| [ux-copywriting](skills/ux-copywriting/SKILL.md) | Writing and reviewing interface copy — buttons, errors, empty states, onboarding |
-| [frontend-design](skills/frontend-design/SKILL.md) | Translating design intent into well-structured, accessible, themeable frontend code |
-| [ux-audit](skills/ux-audit/SKILL.md) | Auditing an existing flow, screen, or component against UX heuristics and accessibility |
+| [ux-copywriting](ux-copywriting/SKILL.md) | Writing and reviewing interface copy — buttons, errors, empty states, onboarding, tooltips |
+| [insight-to-hmw](insight-to-hmw/SKILL.md) | Turning a research insight into a rich set of "How Might We" questions for ideation |
+| [design-feedback-triager](design-feedback-triager/SKILL.md) | Decoding stakeholder and reviewer feedback before acting on it |
 
 ## Repository layout
 
 ```
-skills-project/
+superskilled/
 ├── README.md
-└── skills/
-    ├── ux-copywriting/SKILL.md
-    ├── frontend-design/SKILL.md
-    └── ux-audit/SKILL.md
+├── ux-copywriting/SKILL.md
+├── insight-to-hmw/SKILL.md
+└── design-feedback-triager/SKILL.md
 ```
 
 Each skill stands alone. Drop the directory into a `.claude/skills/` folder (Claude Code), reference it from a system prompt, or read it as a checklist.
 
-## Using a skill with Claude Code
-
-```bash
-mkdir -p .claude/skills
-cp -r skills/ux-copywriting .claude/skills/
-```
-
-Claude will discover the skill automatically and invoke it when its `description` matches the user's request.
 
 ## Contributing
 
