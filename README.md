@@ -1,4 +1,4 @@
-# Design Skills for AI
+# superskilled - end-to-end design skills for AI
 
 A curated, open-source collection of skills that teach AI assistants to think and act like a senior product designer. Each skill is a self-contained directory with a `SKILL.md` describing when to invoke it and the playbook to follow.
 
