@@ -8,9 +8,9 @@ The skills are written in the Anthropic [Claude Skills](https://docs.claude.com/
 
 | Skill | Use it for |
 | --- | --- |
-| [ux-copywriting](ux-copywriting/SKILL.md) | Writing and reviewing interface copy — buttons, errors, empty states, onboarding, tooltips |
-| [insight-to-hmw](insight-to-hmw/SKILL.md) | Turning a research insight into a rich set of "How Might We" questions for ideation |
-| [design-feedback-triager](design-feedback-triager/SKILL.md) | Decoding stakeholder and reviewer feedback before acting on it |
+| [ux-copywriting](ux-copywriting/SKILL.md) | Write and review interface copy
+| [insight-to-hmw](insight-to-hmw/SKILL.md) | Turn any research insight into a rich set of "How Might We" questions for ideation |
+| [design-feedback-triager](design-feedback-triager/SKILL.md) | Decode stakeholder & reviewer feedback before acting on it |
 
 ## Repository layout
 
